@@ -4,3 +4,48 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+body {
+    min-height: 100vh;
+    background-color: #2C2141;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+.main { 
+    background-color:  #F8F8F8 ;
+    border-radius: 16px ;
+    width: 624px;
+    margin: 16px;
+    padding: 32px;
+ }
+ .person {
+
+ }
+ .person__info {
+     
+     margin: 0;
+     font-weight: normal;
+
+ }
+ .person__name {
+     margin: 0;
+     font-size: 36px;
+
+ }
+ .person__position {
+     margin: 0%;
+     font-style: italic;
+     color: #545454;
+ }
+ .person__description {
+     line-height: 22px;
+     font-size: 16px;
+ }
+ .person__description--decoration {
+     color:#ED6D05;
+ }
+ .social-link {
+     text-decoration: none;
+     color: #E20613;
+ }
